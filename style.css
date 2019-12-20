@@ -1,0 +1,39 @@
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    max-width: 800px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.dotted-box{
+    border-style: dashed;
+    border-color: darkgrey;
+    border-width: large;
+    max-width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    position: relative;
+}
+
+h1{
+    color: darkgrey;
+}
+
+#dotted-box-column{
+    height:80%;
+}
+#second-row{
+    height: 80%;
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text)
+}
+
+
+
+
