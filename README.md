@@ -1,2 +1,2 @@
-# Assignment3Dec19
+# Password-Generator
 Password Generator Initial Push
